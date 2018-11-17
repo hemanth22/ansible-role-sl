@@ -1,0 +1,28 @@
+---
+language: python
+services: docker
+
+env:
+  global:
+    - ROLE_NAME: sl
+  matrix:
+    - MOLECULE_DISTRO: centos7
+    - MOLECULE_DISTRO: centos6
+    - MOLECULE_DISTRO: centos5
+
+install:
+  # Install test dependencies.
+  - pip install molecule docker
+
+before_script:
+  # Use actual Ansible Galaxy role name for the project directory.
+  - cd ../
+  - mv ansible-role-$ROLE_NAME hemanth22.$ROLE_NAME
+  - cd hemanth22.$ROLE_NAME
+
+script:
+  # Run tests.
+  - molecule test
+
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
