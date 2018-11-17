@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: root
+  gather_facts: yes
+  roles:
+    - hemanth22.ansible_role_sl
