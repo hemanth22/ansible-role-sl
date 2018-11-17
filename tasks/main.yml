@@ -2,5 +2,6 @@
 # tasks file for sl
 - name: Ensure EPEL is installed
   yum: name=epel-release state=present
+  when: ansible_os_family == 'RedHat'
   notify:
   - Install SL
