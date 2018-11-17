@@ -1,0 +1,4 @@
+---
+# handlers file for sl
+- name: Install SL
+  yum: name=sl state=present

@@ -1,0 +1,6 @@
+---
+# tasks file for sl
+- name: Ensure EPEL is installed
+  yum: name=epel-release state=present
+  notify:
+  - Install SL
