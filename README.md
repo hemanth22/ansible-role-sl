@@ -37,4 +37,4 @@ GNU General Public License v3.0.
 Author Information
 ------------------
 
-This role was created in 2018 by BITRA Hemanth.
+This role was created in 2018 by Hemanth BITRA.
