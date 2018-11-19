@@ -1,5 +1,7 @@
-Role Name
+Ansible Role: Java
 =========
+
+[![Build Status](https://travis-ci.org/hemanth22/Ansible-role-sl.svg?branch=master)](https://travis-ci.org/hemanth22/Ansible-role-sl)
 
 sl - cure your bad habit of mistyping.
 
@@ -35,4 +37,4 @@ GNU General Public License v3.0.
 Author Information
 ------------------
 
-This role was created in 2018 by BITRA Hemanth.
+This role was created in 2018 by Hemanth BITRA.
