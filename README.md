@@ -1,9 +1,6 @@
 Role Name
 =========
 
-[![Galaxy Role][badge-role]][link-galaxy]  
-[![Downloads][badge-downloads]][link-galaxy]
-
 sl - cure your bad habit of mistyping.
 
 Requirements
