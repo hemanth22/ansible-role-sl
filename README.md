@@ -1,3 +1,8 @@
+Production Dashboard
+--------------------
+
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/hemanth22/Ansible-role-sl.svg?columns=all)](https://waffle.io/hemanth22/Ansible-role-sl)  
+
 Ansible Role: Java
 =========
 
