@@ -1,7 +1,12 @@
-Ansible Role: Java
-=========
+Production Dashboard
+--------------------
 
-[![Build Status](https://travis-ci.org/hemanth22/Ansible-role-sl.svg?branch=master)](https://travis-ci.org/hemanth22/Ansible-role-sl)
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/hemanth22/Ansible-role-sl.svg?columns=all)](https://waffle.io/hemanth22/Ansible-role-sl)  
+
+Ansible Role: sl
+=========
+[![Build Status](https://travis-ci.org/hemanth22/ansible-role-sl.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-sl)
+
 
 sl - cure your bad habit of mistyping.
 
@@ -27,7 +32,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: hemanth22.ansible_role_sl }
+        - hemanth22.ansible_role_sl
 
 License
 -------

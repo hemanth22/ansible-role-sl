@@ -4,5 +4,9 @@
   when: ansible_distribution == 'CentOS' or
         ansible_distribution == 'Red Hat Enterprise Linux' or
         ansible_distribution == 'RedHat'
+  register: epel
+  until: epel is success
+  retries: 10
+  delay: 2
   notify:
   - Install SL
