@@ -32,7 +32,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: hemanth22.ansible_role_sl }
+        - hemanth22.ansible_role_sl
 
 License
 -------
