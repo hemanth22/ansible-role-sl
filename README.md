@@ -3,7 +3,7 @@ Production Dashboard
 
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/hemanth22/Ansible-role-sl.svg?columns=all)](https://waffle.io/hemanth22/Ansible-role-sl)  
 
-Ansible Role: Java
+Ansible Role: sl
 =========
 [![Build Status](https://travis-ci.org/hemanth22/ansible-role-sl.svg?branch=master)](https://travis-ci.org/hemanth22/ansible-role-sl)
 
