@@ -6,7 +6,7 @@ Production Dashboard
 Ansible Role: Java
 =========
 
-[![Build Status](https://travis-ci.org/hemanth22/Ansible-role-sl.svg?branch=master)](https://travis-ci.org/hemanth22/Ansible-role-sl)
+
 
 sl - cure your bad habit of mistyping.
 
