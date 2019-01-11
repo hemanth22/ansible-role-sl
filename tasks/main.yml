@@ -11,4 +11,4 @@
   tags:
     - skip_ansible_lint
   notify:
-  - Install SL
+    - Install SL
