@@ -8,5 +8,7 @@
   until: epel is success
   retries: 10
   delay: 2
+  tags:
+    - skip_ansible_lint
   notify:
   - Install SL
