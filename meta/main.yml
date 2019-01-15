@@ -3,7 +3,7 @@ galaxy_info:
   author: hemanth22
   description: sl - cure your bad habit of mistyping
   company: No company.
-  issue_tracker_url: https://github.com/hemanth22/Ansible-role-sl/issues
+  issue_tracker_url: https://github.com/hemanth22/ansible-role-sl/issues
   license: GPLv3
   min_ansible_version: 1.2
   platforms:
